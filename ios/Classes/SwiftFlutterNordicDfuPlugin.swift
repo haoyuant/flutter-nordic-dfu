@@ -17,7 +17,7 @@ public class SwiftFlutterNordicDfuPlugin: NSObject, FlutterPlugin, DFUServiceDel
     }
     
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "com.timeyaa.flutter_nordic_dfu/method", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "com.tekt.flutter_nordic_dfu/method", binaryMessenger: registrar.messenger())
         let instance = SwiftFlutterNordicDfuPlugin(registrar, channel)
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
