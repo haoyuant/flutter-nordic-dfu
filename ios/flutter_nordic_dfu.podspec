@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_nordic_dfu'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
 A new flutter plugin project.
@@ -18,6 +18,6 @@ A new flutter plugin project.
   s.dependency 'Flutter'
   s.dependency 'iOSDFULibrary', '~> 4.9.0'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 end
 
